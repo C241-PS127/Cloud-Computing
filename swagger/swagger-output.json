@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "Lokal.ind API",
-    "description": "Documentation of Lokal.ind API",
+    "description": "Documentation of Lokal.ind API. Full repository provided bellow",
     "contact": {
       "name": "C241-PS127 Cloud Computing team",
       "url": "https://github.com/C241-PS127/Cloud-Computing-API"
@@ -41,15 +41,15 @@
       "description": "API endpoints related to authentication"
     },
     {
-      "name": "Cart",
+      "name": "Cart (Requires Authentication)",
       "description": "API endpoints related to cart"
     },
     {
-      "name": "Wishlist",
+      "name": "Wishlist (Requires Authentication)",
       "description": "API endpoints related to wishlist"
     },
     {
-      "name": "Orders",
+      "name": "Orders (Requires Authentication)",
       "description": "API endpoints related to orders"
     },
     {
@@ -1046,7 +1046,7 @@
     },
     "/cart/": {
       "post": {
-        "tags": ["Cart"],
+        "tags": ["Cart (Requires Authentication)"],
         "description": "",
         "parameters": [
           {
@@ -1086,7 +1086,7 @@
         }
       },
       "get": {
-        "tags": ["Cart"],
+        "tags": ["Cart (Requires Authentication)"],
         "description": "",
         "responses": {
           "200": {
@@ -1100,7 +1100,7 @@
     },
     "/cart/myCart": {
       "get": {
-        "tags": ["Cart"],
+        "tags": ["Cart (Requires Authentication)"],
         "description": "",
         "parameters": [
           {
@@ -1127,7 +1127,7 @@
     },
     "/cart/{CartId}": {
       "patch": {
-        "tags": ["Cart"],
+        "tags": ["Cart (Requires Authentication)"],
         "description": "",
         "parameters": [
           {
@@ -1173,7 +1173,7 @@
         }
       },
       "delete": {
-        "tags": ["Cart"],
+        "tags": ["Cart (Requires Authentication)"],
         "description": "",
         "parameters": [
           {
@@ -1206,7 +1206,7 @@
     },
     "/wishlist/": {
       "post": {
-        "tags": ["Wishlist"],
+        "tags": ["Wishlist (Requires Authentication)"],
         "description": "",
         "parameters": [
           {
@@ -1243,7 +1243,7 @@
         }
       },
       "get": {
-        "tags": ["Wishlist"],
+        "tags": ["Wishlist (Requires Authentication)"],
         "description": "",
         "responses": {
           "200": {
@@ -1257,7 +1257,7 @@
     },
     "/wishlist/myWishlist": {
       "get": {
-        "tags": ["Wishlist"],
+        "tags": ["Wishlist (Requires Authentication)"],
         "description": "",
         "parameters": [
           {
@@ -1284,7 +1284,7 @@
     },
     "/wishlist/{wishListId}": {
       "delete": {
-        "tags": ["Wishlist"],
+        "tags": ["Wishlist (Requires Authentication)"],
         "description": "",
         "parameters": [
           {
@@ -1317,7 +1317,7 @@
     },
     "/orders/": {
       "post": {
-        "tags": ["Orders"],
+        "tags": ["Orders (Requires Authentication)"],
         "description": "",
         "parameters": [
           {
@@ -1369,7 +1369,7 @@
         }
       },
       "get": {
-        "tags": ["Orders"],
+        "tags": ["Orders (Requires Authentication)"],
         "description": "",
         "responses": {
           "200": {
@@ -1383,7 +1383,7 @@
     },
     "/orders/process": {
       "get": {
-        "tags": ["Orders"],
+        "tags": ["Orders (Requires Authentication)"],
         "description": "",
         "parameters": [
           {
@@ -1410,7 +1410,7 @@
     },
     "/orders/finished": {
       "get": {
-        "tags": ["Orders"],
+        "tags": ["Orders (Requires Authentication)"],
         "description": "",
         "parameters": [
           {
@@ -1437,7 +1437,7 @@
     },
     "/orders/finishOrder": {
       "patch": {
-        "tags": ["Orders"],
+        "tags": ["Orders (Requires Authentication)"],
         "description": "",
         "parameters": [
           {

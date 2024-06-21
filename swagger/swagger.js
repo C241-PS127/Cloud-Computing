@@ -41,20 +41,20 @@ const doc = {
             description: 'API endpoints related to authentication',
         },
         {
-            name: 'Cart',
+            name: 'Cart (Requires Authentication)',
             description: 'API endpoints related to cart',
         },
         {
-            name: 'Wishlist',
+            name: 'Wishlist (Requires Authentication)',
             description: 'API endpoints related to wishlist',
         },
         {
-            name: 'Orders',
+            name: 'Orders (Requires Authentication)',
             description: 'API endpoints related to orders',
         },
         {
             name: 'Recommendation',
-            description: 'API endpoints related to recommendations',
+            description: 'API endpoints related to recommendations base on AI trained model',
         },
     ],
 };
