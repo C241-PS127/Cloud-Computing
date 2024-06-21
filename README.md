@@ -38,6 +38,9 @@ service: Your_Service_Name
 ```
 6. Deploy to app.engine with command `gcloud app deploy`
 
+## Google Cloud Infrastructure
+![Infrastucture Image](relative/path/to/image.png)
+
 ## API Documentation
 
 Access the Swagger UI of Lokal.ind API documentation at [Loakl.ind Swagger UI](https://lokal-ind.et.r.appspot.com/api-docs).
