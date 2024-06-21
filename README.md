@@ -35,3 +35,30 @@ This is an Node.js application that serves as an API for Lokal.ind, an online pl
 `runtime: nodejs18
 service: Your_Service_Name`
 6. Deploy to app.engine with command `gcloud app deploy`
+
+## API Documentation
+
+Access the Swagger UI of Lokal.ind API documentation at `https://lokal-ind.et.r.appspot.com/api-docs`.
+
+## Routes
+
+- `/brands`: Brand-related operations
+- `/categories`: Category-related operations
+- `/products`: Product-related operations
+- `/shippers`: Shipper-related operations
+- `/payments`: Payment-related operations
+- `/orderStatus`: Order status operations
+- `/auth`: Authentication routes
+- `/cart`: Shopping cart operations
+- `/wishlist`: Wishlist operations
+- `/orders`: Order management
+- `/recommendation`: Product recommendations
+
+## Error Handling
+
+The application includes custom error handling for 404 Not Found and other errors.
+
+## CORS
+
+CORS is enabled for all origins. Preflight requests are properly handled.
+
