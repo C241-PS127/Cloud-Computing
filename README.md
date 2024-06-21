@@ -40,7 +40,7 @@ service: Your_Service_Name
 
 ## API Documentation
 
-Access the Swagger UI of Lokal.ind API documentation at `https://lokal-ind.et.r.appspot.com/api-docs`.
+Access the Swagger UI of Lokal.ind API documentation at [Loakl.ind Swagger UI](https://lokal-ind.et.r.appspot.com/api-docs).
 
 ## Routes
 
