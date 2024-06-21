@@ -1,6 +1,6 @@
 ## Lokal.ind E-commerce API
 
-This is an Node.js application that serves as an API for Lokal.ind, an online platform where you can shop for local fashion items. It includes various routes for managing brands, categories, products, orders, and more. This API is deployed by Google Cloud App Engine, PostgreSQL on CloudSQL for relational database and Cloud Storage Bucket for storing images
+This is an Node.js application that serves as an API for Lokal.ind, an online platform where you can shop for local fashion items. It includes various routes for managing brands, categories, products, orders, and more. This API is deployed by Google Cloud App Engine, PostgreSQL on CloudSQL for relational database and Cloud Storage Bucket for storing images.
 
 ## Features
 
