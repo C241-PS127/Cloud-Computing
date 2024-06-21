@@ -66,7 +66,3 @@ Access the Swagger UI of Lokal.ind API documentation at [Loakl.ind Swagger UI](h
 
 The application boasts advanced custom error handling mechanisms designed to gracefully manage occurrences such as 404 Not Found and other potential errors with precision and efficiency
 
-## CORS
-
-CORS is enabled for all origins. Preflight requests are properly handled.
-
