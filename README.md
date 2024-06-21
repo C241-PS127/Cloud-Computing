@@ -28,7 +28,7 @@ This is an Node.js application that serves as an API for Lokal.ind, an online pl
 
 > Local Configuration
 5. Install dependencies using command `npm install`
-6. Running the server `npm run dev`
+6. Running the server `npm run dev`.
 
 **or**
 
@@ -38,7 +38,7 @@ This is an Node.js application that serves as an API for Lokal.ind, an online pl
 runtime: nodejs18  
 service: Your_Service_Name
 ```
-6. Deploy to app.engine with command `gcloud app deploy`
+6. Deploy to app.engine with command `gcloud app deploy`.
 
 ## Google Cloud Infrastructure
 ![Infrastucture Image](Infrastucture/Lokal.ind%20Diagram.png)
@@ -46,6 +46,7 @@ service: Your_Service_Name
 ## API Documentation
 
 Access the Swagger UI of Lokal.ind API documentation at [Loakl.ind Swagger UI](https://lokal-ind.et.r.appspot.com/api-docs).
+> The Authorization was created manually using JWT(JSON Web Tokens).
 
 ## Routes
 
