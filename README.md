@@ -29,7 +29,9 @@ This is an Node.js application that serves as an API for Lokal.ind, an online pl
 > Local Configuration
 5. Install dependencies using command `npm install`
 6. Running the server `npm run dev`
+
 **or**
+
 > Google Cloud Deployment
 5. Create `app.yaml` file in the root directory and rename the service name  
 ```
