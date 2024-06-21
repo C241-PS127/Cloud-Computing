@@ -39,7 +39,7 @@ service: Your_Service_Name
 6. Deploy to app.engine with command `gcloud app deploy`
 
 ## Google Cloud Infrastructure
-![Infrastucture Image](relative/path/to/image.png)
+![Infrastucture Image](Infrastucture/Lokal.ind_Diagram.png)
 
 ## API Documentation
 
