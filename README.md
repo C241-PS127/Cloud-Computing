@@ -64,7 +64,7 @@ Access the Swagger UI of Lokal.ind API documentation at [Loakl.ind Swagger UI](h
 
 ## Error Handling
 
-The application includes custom error handling for 404 Not Found and other errors.
+The application boasts advanced custom error handling mechanisms designed to gracefully manage occurrences such as 404 Not Found and other potential errors with precision and efficiency
 
 ## CORS
 
