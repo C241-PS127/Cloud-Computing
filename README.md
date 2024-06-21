@@ -31,8 +31,8 @@ This is an Node.js application that serves as an API for Lokal.ind, an online pl
 6. Running the server `npm run dev`
 
 > Google Cloud Deployment
-5. Create `app.yaml` file in the root directory and rename the service name
-`runtime: nodejs18
+5. Create `app.yaml` file in the root directory and rename the service name  
+`runtime: nodejs18  
 service: Your_Service_Name`
 6. Deploy to app.engine with command `gcloud app deploy`
 
